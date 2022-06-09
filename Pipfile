@@ -10,6 +10,8 @@ requests = "*"
 pillow = "*"
 decouple = "*"
 psycopg2 = "*"
+django-upgrade = "*"
+numpy = "==1.16"
 
 [dev-packages]
 
