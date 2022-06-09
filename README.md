@@ -12,7 +12,11 @@
 
 ## Description
 
-<p>theGallery is an application where you can view pictures of your field of passion and interest</p>
+
+<img src="core/static/core/images/pygramappscreenshot.png" alt="angular-logo" width="120px" height="120px"/>
+
+<p>About
+A django based application that is a replication of the instagram app. Users are able to log in, register if they have no accounts.Like pictures and comment on pictures as well as search users based on their profile.Users are also able to update their profiles and add posts.</p>
 
 It allows you to:
 <ol>
@@ -29,46 +33,52 @@ It allows you to:
 ### Prerequisites
 
 - Django
-- Pip & Python
+- Pipenv & Python
 - Pillow 
 - Postgres Database
 
 
 ### Instructions
-<ol>
-        <li>In your terminal:
 
-        $ git clone https://github.com/Limu2030/theGallery
-        $ cd gallery
-</li>
-        <li> create a virtual environment
+### Cloning
 
-                $ python3.8 -m venv venv
+$ git clone https://github.com/limu2030/photo-app
 
-          activate the virtual environment 
+Move into directory and install requirements
 
-                $ source venv/bin/activate
+$ cd instagram-clone
 
-  </li>
-  <li> Install dependancies
+$ pipenv install request
 
-        $ pip freeze -r requirements.txt
-  </li>
-</ol>
+Install and activate a Virtual Environment
 
-### Running the Application
-Execute: 
+$ pipenv shell
+ 
 
-        python3 manage.py runserver
-        use 127.0.0.1:8000
+### Set-up a Database
+
+Set your database User and Password 
+
+### Make Migrations & Migrate
+
+$ python manage.py makemigrations <DB Name> 
+
+$ python manage.py migrate 
+
+### Run the application
+
+python manage.py runserver 
 
 
 ## Technologies Used
 
 - Python
 - Bootstrap
-- JavaScript
-- CSS
+- Django
+- Bootstrap
+- Pillow
+- Crispy forms
+
 
 
 
