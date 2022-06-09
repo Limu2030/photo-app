@@ -31,7 +31,7 @@ SECRET_KEY = 'django-insecure--nx((wrgqyrm5m_#1rh!^+*=f0$24_!@6mqfz5g3#2zw8=ig5g
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [ 'https://pygramsocial.herokuapp.com/']
+ALLOWED_HOSTS = [ 'https://pygramsocial.herokuapp.com/', '.127.0.0.1']
 
 
 # Application definition
