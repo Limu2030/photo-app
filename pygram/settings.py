@@ -92,7 +92,7 @@ if MODE == 'dev':
         'USER': 'lilly',
         'PASSWORD': '1234',
         'HOST': 'localhost',
-        'PORT': '',
+        'PORT': '5432',
         }
     }
 else:
