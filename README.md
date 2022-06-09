@@ -15,17 +15,8 @@
 
 <img src="core/static/core/images/pygramappscreenshot.png" alt="landingpage" width="" height=""/>
 
-<p>About
-A django based application that is a replication of the instagram app. Users are able to log in, register if they have no accounts.Like pictures and comment on pictures as well as search users based on their profile.Users are also able to update their profiles and add posts.</p>
+<p>A django based application that is a replication of the instagram app. Users are able to log in, register if they have no accounts.Like pictures and comment on pictures as well as search users based on their profile.Users are also able to update their profiles and add posts.</p>
 
-It allows you to:
-<ol>
-<li>View different photos that interest you </li>
-<li>Click on a single photo to expand it and also view the details of the photo</li>
-<li>Search for different categories of photos </li>
-<li>View photos based on the location they were taken</li>
-<li>Copy a link to the photo to share with your friends</li>
-</ol>
 
 
 ## Installation Requirements
