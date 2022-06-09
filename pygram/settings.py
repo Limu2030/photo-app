@@ -12,7 +12,7 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 
 from pathlib import Path
 import os
-from decouple import config
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 # BASE_DIR = Path(__file__).resolve().parent.parent
@@ -82,9 +82,9 @@ WSGI_APPLICATION = 'pygram.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': config('pygram'),
-        'USER': config('lilly'),
-        'PASSWORD': config('1234'),
+        'NAME': 'pygram',
+        'USER': 'lilly',
+        'PASSWORD': '1234',
         'HOST': 'localhost',
         'PORT': '',
         },
