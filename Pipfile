@@ -12,6 +12,7 @@ decouple = "*"
 psycopg2 = "*"
 django-upgrade = "*"
 numpy = "==1.16"
+gunicorn = "*"
 
 [dev-packages]
 
