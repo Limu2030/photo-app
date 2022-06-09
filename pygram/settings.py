@@ -84,7 +84,7 @@ WSGI_APPLICATION = 'pygram.wsgi.application'
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
 
-if MODE == 'prod':
+if MODE == 'dev':
     DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
